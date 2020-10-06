@@ -46,11 +46,11 @@ body {
 .header-text {
     position: absolute;
     top: 250px;
-    left: 20px;
+    left: 30px;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
-    text-shadow: 3px 3px 5px rgb(88, 88, 88);
+    text-shadow: 3px 3px 5px rgb(26, 25, 25);
 }
 
 .hero-bg {
@@ -69,6 +69,18 @@ body {
     background-position: 25% 85%;
 }
 
+.fresh-food-text {
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    color: #fff;
+    text-shadow: 3px 3px 5px rgb(26, 25, 25);
+    font-weight: bold;
+}
+
+.fresh-food-text h3 {
+    text-transform: uppercase;
+}
 
 /*FOOTER*/
 footer {
