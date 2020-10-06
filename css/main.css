@@ -59,6 +59,17 @@ body {
     background-color: rgba(0, 0, 0, 0.25);
 }
 
+/*MAIN*/
+.fresh-food-img {
+    position: relative;
+    height: 450px;
+    background-image: url('../img/vegies-2364221_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25% 85%;
+}
+
+
 /*FOOTER*/
 footer {
     display: flex;
