@@ -46,6 +46,7 @@ body {
 .header-text {
     position: absolute;
     top: 250px;
+    left: 20px;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
