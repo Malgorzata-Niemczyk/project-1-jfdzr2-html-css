@@ -56,6 +56,22 @@ body {
     text-shadow: 3px 3px 5px rgb(26, 25, 25);
 }
 
+/*MAIN*/
+main {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   grid-auto-rows: 300px;
+   grid-gap: 15px;
+   margin: 20px 20px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
 /*separate DIV just above footer*/
 .fresh-food-img {
     position: relative;
