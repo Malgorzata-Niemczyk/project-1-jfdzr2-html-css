@@ -91,16 +91,6 @@ img {
     text-transform: uppercase;
 }
 
-.icon-img i{
-    margin-right: 15px;
-    color: #fff;
-    transition: color 0.5s;
-}
-
-.icon-img i:hover {
-    color:  rgb(0, 238, 255);
-}
-
 /*FOOTER*/
 footer {
     display: flex;
@@ -112,6 +102,19 @@ footer {
     color: #fff;
 }
 
+footer h3 {
+    padding-bottom: 10px;
+}
+
+.icon-img i {
+    margin-right: 15px;
+    color: #fff;
+    transition: color 0.5s;
+}
+
+.icon-img i:hover {
+    color:  rgb(0, 238, 255);
+}
 
 .ftr-copyright {
     height: 50px;
