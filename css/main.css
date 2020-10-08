@@ -111,13 +111,8 @@ footer h3 {
     margin-right: 15px;
     margin-bottom: 15px;
     color: #fff;
-    transition: color 0.5s;
+    transition: color 0.5s, transform 0.5s;
 }
-
-.icon-img i:hover, footer div li a:hover {
-    color:  rgb(0, 238, 255);
-}
-
 footer div li {
     list-style: none;
     padding-bottom: 5px;
@@ -127,6 +122,11 @@ footer div li a {
     color: #fff;
     text-decoration: none;
     transition: color 0.5s;  
+}
+
+.icon-img i:hover, footer div li a:hover {
+    color:  rgb(0, 238, 255);
+    transform: scale(1.5);
 }
 
 .ftr-copyright {
