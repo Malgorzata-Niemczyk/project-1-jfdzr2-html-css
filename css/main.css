@@ -108,6 +108,16 @@ img {
     text-transform: uppercase;
 }
 
+.menu-ico p a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.menu-ico p a:hover {
+    color: rgb(0, 238, 255);
+}
+
 /*FOOTER*/
 footer {
     display: flex;
