@@ -9,7 +9,7 @@ body {
 }
 
 /*NAVIGATION*/
-.nav-top {
+.navbar {
     position: sticky;
     top: 0;
     background-color: #000;
@@ -17,13 +17,13 @@ body {
     z-index: 1;
 }
 
-.nav-top li {
+.navbar li {
     display: inline-block;
     padding: 20px;
     letter-spacing: 2px;
 }
 
-.nav-top li a {
+.navbar li a {
     padding: 20px 20px;
     text-decoration: none;
     color: #fff;
@@ -32,7 +32,7 @@ body {
     transition: color 0.5s;
 }
 
-.nav-top li a:hover {
+.navbar li a:hover {
     color: rgb(0, 238, 255);
 }
 
