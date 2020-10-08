@@ -95,7 +95,8 @@ img {
 footer {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
+    padding-top: 15px;
     height: 150px;
     background-color: #2d3436;
     background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
@@ -108,12 +109,24 @@ footer h3 {
 
 .icon-img i {
     margin-right: 15px;
+    margin-bottom: 15px;
     color: #fff;
     transition: color 0.5s;
 }
 
-.icon-img i:hover {
+.icon-img i:hover, footer div li a:hover {
     color:  rgb(0, 238, 255);
+}
+
+footer div li {
+    list-style: none;
+    padding-bottom: 5px;
+}
+
+footer div li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s;  
 }
 
 .ftr-copyright {
