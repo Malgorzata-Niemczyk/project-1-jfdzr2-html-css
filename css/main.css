@@ -198,7 +198,6 @@ section {
     writing-mode: vertical-lr;
     text-orientation: upright;
     padding-left: 80px;
-
 }
 
 .img-bg-7 {
@@ -242,8 +241,12 @@ section {
 
 .farm-products-text h2 {
     color: rgb(185, 71, 51);
+    padding-bottom: 10px;
 }
 
+p {
+    line-height: 25px;
+}
 
 /*separate DIV just above footer*/
 .fresh-food-img {
