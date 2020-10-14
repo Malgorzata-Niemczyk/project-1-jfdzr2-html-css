@@ -236,7 +236,14 @@ section {
 .farm-products-text {
     grid-column: 8 / 12 ;
     grid-row: 2 / 6;
+    padding-left: 20px;
+    padding-top: 50px;
 }
+
+.farm-products-text h2 {
+    color: rgb(185, 71, 51);
+}
+
 
 /*separate DIV just above footer*/
 .fresh-food-img {
