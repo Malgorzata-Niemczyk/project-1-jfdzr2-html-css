@@ -152,9 +152,17 @@ section {
     padding-bottom: 30px;
 }
 
+.food-text-1 p {
+    padding-left: 60px;
+}
+
 .food-text-2 h2 {
     text-align: left;
     padding-bottom: 30px;
+}
+
+.food-text-2 p {
+    padding-right: 80px;
 }
 
 .img-bg-3 {
