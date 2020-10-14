@@ -8,6 +8,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*NAVIGATION*/
 .navbar {
     position: sticky;
@@ -147,7 +151,7 @@ section {
     padding: 30px;
 }
 
-.food-text-1 h2 {
+.food-text-1 h2, .food-text-2 h2 {
     text-align: right;
     padding-bottom: 30px;
 }
@@ -158,7 +162,6 @@ section {
 
 .food-text-2 h2 {
     text-align: left;
-    padding-bottom: 30px;
 }
 
 .food-text-2 p {
