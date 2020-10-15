@@ -16,6 +16,8 @@ html {
 .navbar {
     position: sticky;
     top: 0;
+    height: 60px;
+    line-height: 60px;
     background-color: #000;
     text-align: center;
     z-index: 1;
@@ -23,12 +25,11 @@ html {
 
 .navbar li {
     display: inline-block;
-    padding: 20px;
     letter-spacing: 2px;
 }
 
 .navbar li a {
-    padding: 20px 20px;
+    padding: 30px;
     text-decoration: none;
     color: #fff;
     font-weight: bold;
