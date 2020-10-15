@@ -107,6 +107,7 @@ section {
     text-align: center;
     padding: 40px;
     font-size: 35px;
+    font-weight: 900;
 }
 
 .about-us-section p {
@@ -114,6 +115,12 @@ section {
     grid-row: 3 / 7;
     padding-top: 5px;
     padding-left: 15px;
+    font-weight: bold;
+}
+
+.about-us-section span a {
+    color: rgb(248, 129, 93);
+    text-decoration: none;
 }
 
 .black-sq {
