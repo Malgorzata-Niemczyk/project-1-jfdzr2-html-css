@@ -350,6 +350,7 @@ footer div li a {
 
 .ftr-copyright {
     height: 50px;
+    line-height: 50px;
     border-top: 1.5px solid rgb(158, 157, 157);
 }
 
