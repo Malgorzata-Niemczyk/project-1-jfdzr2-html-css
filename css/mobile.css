@@ -1,10 +1,37 @@
 /*max-width: 768px*/
 @media (max-width: 768px) {
     
+    /*separate DIV just above footer*/
+    .fresh-food-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .food-icons {
+        display: flex;
+        padding-top: 25px;
+        position: absolute;
+        top: 70px;
+        left: 8%;
+    }
+
+    .food-icons p {
+        padding-left: 25px;
+    }
+
+    /*NAVIGATION*/
     .navbar li {
         display: none;
     }
 
+    /*FOOTER*/
     footer {
         display: flex;
         flex-direction: column;
@@ -13,5 +40,4 @@
         text-align: center;
         height: 500px;
     }
-
 }
