@@ -273,6 +273,13 @@ section {
 
 p {
     line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.farm-products-text p a {
+    color:  rgb(248, 129, 93);
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 /*separate DIV just above footer*/
