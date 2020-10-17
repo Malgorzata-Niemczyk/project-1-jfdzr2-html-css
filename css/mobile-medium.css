@@ -8,18 +8,19 @@
         justify-content: center;
         align-items: center;
         position: relative;
-        top: 50%;
+        top: 30%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        
         text-align: center;
     }
 
     .food-icons {
         display: flex;
+        flex-direction: column;
         padding-top: 25px;
         position: absolute;
-        top: 70px;
-        left: 8%;
+        top: 50px;
+        left: 30%;
     }
 
     .food-icons p {
