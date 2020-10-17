@@ -21,15 +21,18 @@
 
     /*separate DIV just above footer*/
     .fresh-food-text {
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         position: relative;
         top: 30%;
         left: 50%;
-        
         text-align: center;
+    }
+
+    .food-subtext {
+        position: absolute;
+        left: 20%;
     }
 
     .food-icons {
@@ -38,7 +41,7 @@
         padding-top: 25px;
         position: absolute;
         top: 50px;
-        left: 30%;
+        left: 40%;
     }
 
     .food-icons p {
