@@ -1,6 +1,24 @@
 /*max-width: 768px*/
 @media (max-width: 768px) {
-    
+    /*NAVIGATION*/
+    .nav-mobile-btn {
+        display: initial;
+    }
+
+    .navbar li {
+        display: none;
+    }
+
+    /*FOOTER*/
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 500px;
+    }
+
     /*separate DIV just above footer*/
     .fresh-food-text {
         display: flex;
@@ -27,18 +45,4 @@
         padding-left: 25px;
     }
 
-    /*NAVIGATION*/
-    .navbar li {
-        display: none;
-    }
-
-    /*FOOTER*/
-    footer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: 500px;
-    }
 }
