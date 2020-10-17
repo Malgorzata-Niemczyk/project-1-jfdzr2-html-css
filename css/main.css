@@ -215,16 +215,35 @@ section {
     background-image: url('../img/schnitzel-3279045_1280.jpg');
 }
 
-.meat-fish-section h2 {
+.meat-h2 {
+    grid-column: 6 / 7;
+    grid-row: 1 / 6;
+    padding-left: 60px;
+}
+
+.and-h2 {
     grid-column: 6 / 8;
-    grid-row: 1 / 8;
-    background-color: tomato;
-    text-transform: uppercase;
-    font-weight: 900;
+    grid-row: 5 / 8;
+    text-align: center;
+    z-index: 1;
+}
+
+.fish-h2 {
+    grid-column: 7 / 8;
+    grid-row: 1 / 6;
+}
+
+.meat-h2, .fish-h2 {
     text-align: center;
     writing-mode: vertical-lr;
     text-orientation: upright;
-    padding-left: 85px;
+}
+
+.meat-h2, .and-h2, .fish-h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: tomato;
 }
 
 .img-bg-7 {
@@ -400,8 +419,4 @@ footer div li a {
     border-top: 1.5px solid rgb(158, 157, 157);
 }
 
-/*SHOPPING CART PAGE - TABLE*/
-table {
-    margin: 0 auto;
-    padding: 20px;
-}
+/*SHOPPING CART PAGE*/
