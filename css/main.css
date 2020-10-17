@@ -14,6 +14,8 @@ html {
 
 /*NAVIGATION*/
 .navbar {
+    display: flex;
+    justify-content: space-between;
     position: sticky;
     top: 0;
     height: 60px;
@@ -28,7 +30,7 @@ html {
     letter-spacing: 2px;
 }
 
-.navbar li a {
+.navbar li a, .shopping-cart-ico a {
     padding: 30px;
     text-decoration: none;
     color: #fff;
@@ -37,7 +39,7 @@ html {
     transition: color 0.5s;
 }
 
-.navbar li a:hover {
+.navbar li a:hover, .shopping-cart-ico a:hover {
     color: rgb(0, 238, 255);
 }
 
@@ -54,6 +56,11 @@ html {
 .nav-mobile-btn i {
     color: #fff;
     font-size: 30px;
+}
+
+.shopping-cart-ico {
+    position: absolute;
+    right: 0;
 }
 
 /*HEADER*/
