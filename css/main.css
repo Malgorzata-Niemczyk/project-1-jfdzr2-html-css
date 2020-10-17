@@ -41,6 +41,21 @@ html {
     color: rgb(0, 238, 255);
 }
 
+.nav-mobile-btn {
+    display: none;
+    position: absolute;
+    left: 0;
+    height: 60px;
+    width: 60px;
+    background: none;
+    border: none;
+}
+
+.nav-mobile-btn i {
+    color: #fff;
+    font-size: 30px;
+}
+
 /*HEADER*/
 .header-img {
     position: relative;
