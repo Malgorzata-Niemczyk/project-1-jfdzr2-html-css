@@ -466,4 +466,37 @@ footer div li a {
     border-top: 1.5px solid rgb(158, 157, 157);
 }
 
+/*****************************/
 /*SHOPPING CART PAGE*/
+/****************************/
+.navbar-2 ul {
+    display: flex;
+    align-items: center;
+    height: 45px;
+    list-style: none;
+    background-color: orange;
+}
+
+.navbar-2 li {
+    border-right: 1px solid black;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.navbar-2 li:nth-child(5) {
+    border-right: none;
+}
+
+.navbar-2 li a {
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color .5s;
+}
+
+.navbar-2 li a:hover {
+    color: #fff;
+}
