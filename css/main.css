@@ -595,7 +595,7 @@ footer div li a {
 /*Shopping Cart - MAIN - payment summary*/
 .payment-summary {
     grid-column: 9 / 12;
-    grid-row: 1 / 5;
+    grid-row: 1 / 6;
     display: flex;
     flex-direction: column;
     position: sticky;
@@ -606,8 +606,8 @@ footer div li a {
 }
 
 .payment-summary h2 {
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 
 .payment-summary p {
