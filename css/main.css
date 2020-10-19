@@ -598,6 +598,8 @@ footer div li a {
     grid-row: 1 / 5;
     display: flex;
     flex-direction: column;
+    position: sticky;
+    top: 75px;
     padding: 10px;
     background-color: rgb(241, 241, 241);
     text-transform: uppercase;
