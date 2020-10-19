@@ -609,38 +609,6 @@ footer div li a {
     border-bottom: 1px solid rgb(148, 146, 146);
 }
 
-.payment-summary p:nth-child(2) {
-    padding-top: 10px;
-}
-
-.payment-summary p:nth-child(2) strong {
-    margin-left: 32%;
-}
-
-.payment-summary p:nth-child(3) strong {
-    margin-left: 50%;
-}
-
-.payment-summary p:nth-child(4) {
-    padding-top: 20px;
-    border-top: 1px dashed rgb(148, 146, 146);
-    border-bottom: 1px dashed  rgb(148, 146, 146);
-}
-
-.payment-summary p:nth-child(5) {
-    padding-top: 20px;
-    padding-right: 10px;
-    align-self: flex-end;
-}
-
-.payment-summary p:nth-child(5) strong {
-    font-size: 25px;
-}
-
-.coupon-add-btn {
-    margin-left: 64%;
-}
-
 .coupon-add-btn, .checkout-btn {
     text-transform: uppercase;
 }
