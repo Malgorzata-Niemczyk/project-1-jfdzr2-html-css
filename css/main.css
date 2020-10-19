@@ -555,6 +555,31 @@ footer div li a {
     justify-content: space-evenly;
 }
 
+.product-item p:nth-child(4) input {
+    width: 20px;
+    height: 25px;
+}
+
+.product-item p:nth-child(4) > button {
+    width: 40px;
+    height: 25px;
+}
+
+.product-item p:nth-child(4) > button:nth-child(1) {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.product-item p:nth-child(4) > button:nth-child(3) {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.product-item p:nth-child(6) > button {
+    width: 110px;
+    height: 30px;
+}
+
 /*Shopping Cart - MAIN - payment summary*/
 .payment-summary {
     grid-column: 9 / 12;
