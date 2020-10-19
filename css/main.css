@@ -595,7 +595,7 @@ footer div li a {
 /*Shopping Cart - MAIN - payment summary*/
 .payment-summary {
     grid-column: 9 / 12;
-    grid-row: 1 / 6;
+    grid-row: 1 / 5;
     display: flex;
     flex-direction: column;
     padding: 10px;
@@ -617,9 +617,29 @@ footer div li a {
     color: green;
 }
 
+.total-price-table {
+    border-collapse: collapse;
+}
+
 .total-price-table td {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
+}
+
+.total-price-table tr td:last-child  {
+    text-align: right;
+}
+
+.total-price-table tr:last-child {
+    text-align: right;
+}
+
+.total-price-table tr:last-child > td strong {
+    font-size: 22px;
+}
+
+.total-price-table tr:nth-child(3) {
+    border-top: 1px dashed rgb(148, 146, 146);
+    border-bottom: 1px dashed rgb(148, 146, 146);
 }
 
 .coupon-add-btn, .checkout-btn {
