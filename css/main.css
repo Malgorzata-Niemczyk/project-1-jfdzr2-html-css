@@ -469,6 +469,8 @@ footer div li a {
 /*****************************/
 /*SHOPPING CART PAGE*/
 /****************************/
+
+/**Shopping Cart - NAVIGATION*/
 .navbar-2 ul {
     display: flex;
     align-items: center;
@@ -499,4 +501,29 @@ footer div li a {
 
 .navbar-2 li a:hover {
     color: #fff;
+}
+
+/*Shopping Cart - MAIN - payment summary*/
+.payment-summary {
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+    text-transform: uppercase;
+}
+
+.payment-summary p button, .checkout-btn {
+    text-transform: uppercase;
+}
+
+.payment-summary p button {
+    padding: 3px 40px;
+    background-color: #fff;
+    border: 1px solid black;
+
+}
+.checkout-btn {
+    padding: 15px 70px;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
 }
