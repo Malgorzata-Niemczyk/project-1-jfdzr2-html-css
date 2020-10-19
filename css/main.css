@@ -606,8 +606,17 @@ footer div li a {
 .payment-summary h2 {
     padding-top: 20px;
     padding-bottom: 10px;
+}
+
+.payment-summary p {
+    text-transform: initial;
     border-bottom: 1px solid rgb(148, 146, 146);
 }
+
+.payment-summary p i {
+    color: green;
+}
+
 
 .coupon-add-btn, .checkout-btn {
     text-transform: uppercase;
