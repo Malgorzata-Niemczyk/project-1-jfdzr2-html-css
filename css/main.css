@@ -511,6 +511,18 @@ footer div li a {
     gap: 10px;
     padding: 20px;
 }
+.product-headings, .product-item {
+    display: flex;
+    align-items: center;
+}
+
+.product-headings {
+    justify-content: space-around;
+}
+
+.product-item {
+    justify-content: space-between;
+}
 
 .product-item, .product-headings {
     border-bottom: 1px solid #000;
@@ -525,6 +537,7 @@ footer div li a {
     grid-column: 1 / 9;
     grid-row: 1 / 2;
 }
+
 .product-headings {
     list-style: none;
 }
@@ -552,11 +565,6 @@ footer div li a {
 .product-5 {
     grid-column: 1 / 9;
     grid-row: 10 / 12;
-}
-
-.product-headings, .product-item {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .product-item p:nth-child(4) input {
