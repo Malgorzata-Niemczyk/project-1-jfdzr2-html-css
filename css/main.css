@@ -617,6 +617,10 @@ footer div li a {
     color: green;
 }
 
+.total-price-table td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .coupon-add-btn, .checkout-btn {
     text-transform: uppercase;
