@@ -551,25 +551,28 @@ footer div li a {
 .payment-summary {
     grid-column: 8 / 12;
     grid-row: 1 / 3;
+    display: flex;
+    flex-direction: column;
     padding: 10px;
     background-color: rgb(241, 241, 241);
     text-transform: uppercase;
 }
 
-.payment-summary p button, .checkout-btn {
+.coupon-add-btn, .checkout-btn {
     text-transform: uppercase;
 }
 
-.payment-summary p button {
+.coupon-add-btn {
     padding: 3px 40px;
     background-color: #fff;
     border: 1px solid black;
 
 }
 .checkout-btn {
-    padding: 15px 70px;
+    padding: 20px;
     background-color: #000;
     color: #fff;
+    font-size: 17px;
     font-weight: bold;
     border: none;
 }
