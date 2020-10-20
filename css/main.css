@@ -586,18 +586,18 @@ footer div li a {
 /*Shopping Cart - MAIN - payment summary*/
 .payment-summary {
     grid-column: 9 / 12;
-    grid-row: 1 / 6;
+    grid-row: 1 / 7;
     display: flex;
     flex-direction: column;
     position: sticky;
-    top: 75px;
+    top: 45px;
     padding: 10px;
     background-color: rgb(241, 241, 241);
     text-transform: uppercase;
 }
 
 .payment-summary h2 {
-    padding-top: 25px;
+    padding-top: 5px;
     padding-bottom: 20px;
 }
 
@@ -646,10 +646,27 @@ footer div li a {
 
 }
 .checkout-btn {
+    margin-top: 20px;
     padding: 20px;
     background-color: #000;
     color: #fff;
     font-size: 17px;
     font-weight: bold;
     border: none;
+}
+
+.payment-summary h4 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.payment-summary label {
+    text-transform: initial;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.payment-summary select {
+    padding: 5px;
+    border: 1px solid #000;
 }
