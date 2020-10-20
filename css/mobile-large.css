@@ -1,1 +1,16 @@
 /*max-width: 992px*/
+@media (max-width: 992px) {
+/*****************************/
+/*Below styling for: SHOPPING CART PAGE*/
+/****************************/
+
+/*Styling the container with product summary in it by setting different row and column position in a grid*/
+#container {
+    grid-template-rows: repeat(auto-fit, minmax(90px, 5vw));
+} 
+
+.payment-summary {
+    grid-column: 1 / 9;
+    grid-row: 12 / 17;
+}
+}

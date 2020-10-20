@@ -40,11 +40,6 @@
     }
 
     /*Styling the container with product items in it by setting flex-direction on column and setting differnt rows of the products items*/
-
-    #container {
-        grid-template-rows: repeat(auto-fit, minmax(90px, 5vw));
-    }   
-
     .product-item img {
         width: 300px;
         height: 230px;
