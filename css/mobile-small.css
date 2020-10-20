@@ -1,5 +1,9 @@
 /*max-width: 576px*/
+
 @media (max-width: 576px) {
+/*****************************/
+/*Below styling for: POLISH FOOD RESTAURANT PAGE*/
+/****************************/
     .fresh-food-text {
         display: flex;
         flex-direction: column;
@@ -18,5 +22,74 @@
     .food-icons {
         top: 50px;
         left: 30%;
+    }
+
+/*****************************/
+/*Below styling for: SHOPPING CART PAGE*/
+/****************************/
+    
+/*NAVIGATION-2*/
+    .navbar-2 ul {
+        flex-direction: column;
+        height: 180px;
+    }
+
+    .navbar-2 li {
+        border-right: none;
+        padding: 8px;
+    }
+
+    /*Styling the container with product items in it by setting flex-direction on column and setting differnt rows of the products items*/
+
+    #container {
+        grid-template-rows: repeat(auto-fit, minmax(90px, 5vw));
+    }   
+
+    .product-item img {
+        width: 300px;
+        height: 230px;
+    }
+
+    .product-headings {
+        display: none;
+    }
+
+    .product-item p:nth-child(3) {
+        display: none;
+    }
+
+    .product-item {
+        flex-direction: column;
+    }
+
+    .product-item h3 {
+        padding-bottom: 15px;
+    }
+
+    .product-1 {
+        grid-row: 2 / 6;
+        border-top: 1px solid #000;
+        padding-top: 10px;
+    }
+
+    .product-2 {
+        grid-row: 7 / 11;
+    }
+
+    .product-3 {
+        grid-row: 11 / 15;
+    }
+
+    .product-4 {
+        grid-row: 15 / 19;
+    }
+
+    .product-5 {
+        grid-row: 19 / 23;
+    }
+
+    .payment-summary {
+        grid-column: 1 / 9;
+        grid-row: 23 / 27;
     }
 }
