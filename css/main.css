@@ -655,14 +655,9 @@ footer div li a {
     border: none;
 }
 
-.payment-summary h4 {
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-
 .payment-summary label {
     text-transform: initial;
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 5px;
 }
 
