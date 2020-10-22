@@ -17,3 +17,9 @@
 .total-price-table td {
     width: 100%;
 }
+
+
+
+.bottom-food-offer {
+    justify-content: space-around;
+}
