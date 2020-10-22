@@ -820,7 +820,7 @@ footer div li a {
 .bottom-food-offer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -835,5 +835,7 @@ footer div li a {
 }
 
 .food-view-title {
- transform: translateY(-35px);
+    width: 260px;
+    transform: translateY(-35px);
 }
+
