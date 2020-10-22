@@ -735,8 +735,25 @@ footer div li a {
     color: #fff;
 }
 
-.food-offer-3, .dark-img-square {
+.food-offer-bg {
     display: flex;
+}
+
+.food-offer-2, .food-offer-4 {
+    flex-direction: column;
+}
+
+.deal-offer-heading {
+    padding: 5px;
+    width: 100px;
+    background-color: #000;
+    clip-path: circle(62.7% at 34% 36%);
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.food-offer-3, .dark-img-square {
     justify-content: center;
     align-items:center;
     text-align: center;
