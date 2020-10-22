@@ -805,7 +805,7 @@ footer div li a {
 }
 /*Styling for the bottom part of the main tag showing featured products with prices*/
 .featured-poducts-heading h2 {
-    padding: 15px;
+    padding: 20px;
     text-transform: uppercase;
     text-shadow: 3px 3px 3px rgb(99, 98, 98);
 }
@@ -822,4 +822,18 @@ footer div li a {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.bottom-featured-products h3 {
+    padding: 10px;
+    width: 120px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background-color: orange;
+    transform: translateY(-46px);
+}
+
+.food-view-title {
+ transform: translateY(-35px);
 }
