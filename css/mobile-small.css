@@ -86,3 +86,16 @@
     grid-column: 1 / 9;
     grid-row: 23 / 27;
 }
+
+
+/*****************************/
+/*Below styling for: ONLINE PRODUCT LIST PAGE*/
+/****************************/
+.bottom-food-offer {
+    justify-content: center;
+}
+
+.bottom-featured-products img {
+    width: 300px;
+    height: 300px;
+}
