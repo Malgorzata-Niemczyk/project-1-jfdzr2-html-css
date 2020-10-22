@@ -597,6 +597,10 @@ footer div li a {
     height: 30px;
 }
 
+.product-item p:nth-child(4) > button, .product-item p:nth-child(6) > button {
+    cursor: pointer;
+}
+
 /*Shopping Cart - MAIN - payment summary*/
 .payment-summary {
     grid-column: 9 / 12;
@@ -651,6 +655,7 @@ footer div li a {
 
 .coupon-add-btn, .checkout-btn {
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .coupon-add-btn {
@@ -666,7 +671,6 @@ footer div li a {
     color: #fff;
     font-size: 17px;
     font-weight: bold;
-    border: none;
 }
 
 .payment-summary label {
