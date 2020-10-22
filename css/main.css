@@ -839,3 +839,24 @@ footer div li a {
     transform: translateY(-35px);
 }
 
+.food-view-title p button {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.food-view-title p button:first-child {
+    color:#fff;
+    background-color: #000;
+}
+
+.food-view-title p button:last-child {
+    background-color: rgb(209, 228, 228);
+}
+
+.food-img-1 .food-view-title p, .food-img-2 .food-view-title p, .food-img-4 .food-view-title p, .food-img-7 .food-view-title p {
+    transform: translateY(15px);
+}
+
+.food-img-3 .food-view-title p, .food-img-5 .food-view-title p, .food-img-6 .food-view-title p, .food-img-8 .food-view-title p {
+    transform: translateY(30px);
+}
