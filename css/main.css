@@ -742,6 +742,7 @@ footer div li a {
 /*Styles for the images and text that contain Deal of the Day offer*/
 .food-offer-2, .food-offer-4 {
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .deal-offer-heading {
@@ -760,7 +761,6 @@ footer div li a {
 }
 
 .discounted-food-text {
-    transform: translateY(74px);
     padding: 10px;
     background-color: rgba(241, 240, 240, 0.8);
 }
