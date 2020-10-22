@@ -689,7 +689,7 @@ footer div li a {
     max-width: 1200px;
 }
 
-/*Styles for the top part of the main tag with food offers and discounts*/
+/*Styles for the top part of the main tag with food offers and discounts to set the images in the grid*/
 .top-food-offer {
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(96px, 1fr));
@@ -739,6 +739,7 @@ footer div li a {
     display: flex;
 }
 
+/*Styles for the images and text that contain Deal of the Day offer*/
 .food-offer-2, .food-offer-4 {
     flex-direction: column;
 }
@@ -751,6 +752,33 @@ footer div li a {
     text-align: center;
     color: #fff;
     font-size: 30px;
+}
+
+.deal-offer-heading p em {
+    font-size: 22px;
+    color: orange;
+}
+
+.discounted-food-text {
+    transform: translateY(74px);
+    padding: 10px;
+    background-color: rgba(241, 240, 240, 0.8);
+}
+
+.discounted-food-text p {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.discounted-food-text p span {
+    color: rgb(117, 117, 117);
+    font-size: initial;
+    text-decoration: line-through;
+}
+
+.discounted-food-text em span {
+    color: rgb(211, 140, 9);
+    font-weight: bold;
 }
 
 /*Styling of the text, in the top of the main tag, that contains offers for sizzling skillets and vegetarian food*/
