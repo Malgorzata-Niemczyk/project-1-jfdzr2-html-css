@@ -11,7 +11,7 @@
 
 .payment-summary {
     grid-column: 1 / 9;
-    grid-row: 12 / 17;
+    grid-row: 13 / 17;
 }
 
 .total-price-table td {
