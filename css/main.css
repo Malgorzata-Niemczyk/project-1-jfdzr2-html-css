@@ -809,3 +809,17 @@ footer div li a {
     text-transform: uppercase;
     text-shadow: 3px 3px 3px rgb(99, 98, 98);
 }
+
+.bottom-featured-products img {
+    width: 260px;
+    height: 260px;
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+}
+
+.bottom-food-offer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
