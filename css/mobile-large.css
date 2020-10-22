@@ -1,5 +1,5 @@
 /*max-width: 992px*/
-@media (max-width: 992px) {
+
 /*****************************/
 /*Below styling for: SHOPPING CART PAGE*/
 /****************************/
@@ -16,5 +16,4 @@
 
 .total-price-table td {
     width: 100%;
-}
 }
