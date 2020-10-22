@@ -753,14 +753,28 @@ footer div li a {
     font-size: 30px;
 }
 
+/*Styling of the text, in the top of the main tag, that contains offers for sizzling skillets and vegetarian food*/
 .food-offer-3, .dark-img-square {
     justify-content: center;
     align-items:center;
     text-align: center;
-    font-size: 51px;
+    font-size: 35px;
     text-shadow: 3px 5px 3px black;
 }
 
+.food-offer-3 p, .dark-img-square p {
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+.food-offer-3 p span, .dark-img-square p span {
+    font-size: 58px;
+}
+
+.food-offer-3 p em, .dark-img-square p em {
+    font-size: 15px;
+    text-transform: initial;
+}
 /*Styling for the bottom part of the main tag showing featured products with prices*/
 .featured-poducts-heading h2 {
     padding: 15px;
