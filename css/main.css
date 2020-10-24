@@ -855,6 +855,11 @@ footer div li a {
 
 .food-view-title p button:last-child {
     background-color: rgb(209, 228, 228);
+    transition: transform 0.3s;
+}
+
+.food-view-title p button:last-child:hover {
+    transform: scale(1.2);
 }
 
 .food-img-1 .food-view-title p, .food-img-2 .food-view-title p, .food-img-4 .food-view-title p, .food-img-7 .food-view-title p {
