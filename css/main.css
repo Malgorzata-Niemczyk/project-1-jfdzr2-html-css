@@ -811,7 +811,7 @@ footer div li a {
 .featured-poducts-heading h2 {
     padding: 20px;
     text-transform: uppercase;
-    text-shadow: 3px 3px 3px rgb(99, 98, 98);
+    text-shadow: -3px -3px 3px rgb(99, 98, 98);
 }
 
 .bottom-featured-products figure {
