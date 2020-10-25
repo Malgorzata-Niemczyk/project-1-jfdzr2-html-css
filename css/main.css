@@ -814,6 +814,13 @@ footer div li a {
     text-shadow: 3px 3px 3px rgb(99, 98, 98);
 }
 
+.bottom-featured-products figure {
+    transition: transform 0.3s;
+}
+
+.bottom-featured-products figure:hover {
+    transform: translateY(-15px);
+}
 .bottom-featured-products img {
     width: 260px;
     height: 260px;
