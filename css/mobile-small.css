@@ -3,24 +3,30 @@
 /*****************************/
 /*Below styling for: POLISH FOOD RESTAURANT PAGE*/
 /****************************/
+/*Styling the elements in the section with a class of fresh-food-bg*/
+.fresh-food-bg {
+    height: 650px;
+}
+
 .fresh-food-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-     position: relative;
-    top: 30%;
-    left: 50%;
-    text-align: center;
+    transform: translateY(20%);
 }
 
 .food-subtext {
-    left: 5%;
+    text-align: center;
+    padding-left: initial;
 }
 
 .food-icons {
-    top: 50px;
-    left: 30%;
+    grid-column: 1 / 3;
+    grid-row: 3 / 5;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(55%); 
+}
+
+.food-icons p {
+    padding-bottom: 50px;
 }
 
 /*****************************/
