@@ -87,6 +87,10 @@
     grid-row: 23 / 27;
 }
 
+/*adjusting the position of the paragraph tags that are within the div with a class of product-item*/
+.product-2 p:nth-of-type(2), .product-3 p:nth-of-type(2), .product-3 p:nth-of-type(3), .product-2 p:nth-of-type(3), .product-4 p:nth-of-type(3), .product-4 p:nth-of-type(2) {
+    transform: initial;
+}
 
 /*****************************/
 /*Below styling for: ONLINE PRODUCT LIST PAGE*/
