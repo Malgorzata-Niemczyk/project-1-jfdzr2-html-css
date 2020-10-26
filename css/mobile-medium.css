@@ -19,35 +19,6 @@ footer {
     height: 500px;
 }
 
-/*separate DIV just above footer in POLISH FOOD RESTAURANT PAGE*/
-.fresh-food-text {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 30%;
-    left: 50%;
-    text-align: center;
-}
-
-.food-subtext {
-    position: absolute;
-    left: 20%;
-}
-
-.food-icons {
-    display: flex;
-    flex-direction: column;
-    padding-top: 25px;
-    position: absolute;
-    top: 50px;
-    left: 40%;
-}
-
-.food-icons p {
-    padding-left: 25px;
-}
-
 /*****************************/
 /*Below styling for: ONLINE PRODUCT LIST PAGE*/
 /****************************/
