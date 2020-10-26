@@ -543,7 +543,7 @@ footer div li a {
 }
 
 .product-item img {
-    width: 150px;
+    width: 180px;
     height: 150px;
 }
 
@@ -599,6 +599,35 @@ footer div li a {
 
 .product-item p:nth-child(4) > button, .product-item p:nth-child(6) > button {
     cursor: pointer;
+}
+
+/*adjusting the position of the paragraph tags that are within the div with a class of product-item*/
+.product-2 p:nth-of-type(1) {
+    transform: translateX(55%);
+}
+
+.product-3 p:nth-of-type(1){
+    transform: translateX(15%);
+}
+
+.product-4 p:nth-of-type(1){
+    transform: translateX(45%);
+}
+
+.product-2 p:nth-of-type(2) {
+    transform: translateX(30%);
+}
+
+.product-3 p:nth-of-type(2) {
+    transform: translateX(10%);
+}
+
+.product-3 p:nth-of-type(3) {
+    transform: translateX(5%);
+}
+
+.product-2 p:nth-of-type(3), .product-4 p:nth-of-type(3), .product-4 p:nth-of-type(2) {
+    transform: translateX(20%);
 }
 
 /*Shopping Cart - MAIN - payment summary*/
