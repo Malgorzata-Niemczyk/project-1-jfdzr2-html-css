@@ -243,7 +243,6 @@ section {
 .img-bg-6 {
     grid-column: 1 / 6;
     grid-row: 1 / 8;
-    background-image: url('../img/polish-restaurant_img/schnitzel-3279045_1280.jpg');
 }
 
 .meat-h2 {
@@ -280,7 +279,6 @@ section {
 .img-bg-7 {
     grid-column: 8 / 13;
     grid-row: 1 / 8;
-    background-image: url('../img/polish-restaurant_img/fish-dish.jpg');
 }
 
 /*MAIN - styling the elements in the section with the class of farm-products-section*/
