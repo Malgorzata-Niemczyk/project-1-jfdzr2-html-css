@@ -72,7 +72,7 @@ html {
 .header-img {
     position: relative;
     height: 350px;
-    background-image: url('../img/dumplings-3440155_1920.jpg');
+    background-image: url('../img/polish-restaurant_img/dumplings-3440155_1920.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 20% 85%;
@@ -352,7 +352,7 @@ section {
 .fresh-food-bg {
     width: 100%;
     height: 450px;
-    background-image: url('../img/vegies-2364221_1920.jpg');
+    background-image: url('../img/polish-restaurant_img/vegies-2364221_1920.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 25% 85%;
