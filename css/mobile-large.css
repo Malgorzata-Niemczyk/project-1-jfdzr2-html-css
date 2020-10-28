@@ -5,7 +5,7 @@
 /****************************/
 /* MAIN - styling the elements in the section with a class of about-us-section*/
 .about-us-section {
-    grid-template-rows: repeat(8, minmax(90px, 5vw));
+    grid-template-rows: repeat(10, minmax(90px, 5vw));
 }
 
 .img-bg-1 {
@@ -26,12 +26,12 @@
 
 .img-bg-2 {
     grid-column: 6 / 8;
-    grid-row: 4 / 9;
+    grid-row: 5 / 11;
 }
 
 .blue-sq {
     grid-column: 7 / 9;
-    grid-row: 5 / 7;
+    grid-row: 4 / 7;
 }
 
 /* MAIN - styling the elements in the section with a class of polish-food-section*/
