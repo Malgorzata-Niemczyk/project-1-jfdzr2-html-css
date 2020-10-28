@@ -5,7 +5,7 @@
 /****************************/
 /* MAIN - styling the elements in the section with a class of about-us-section*/
 .about-us-section {
-    grid-template-rows: repeat(13, minmax(90px, 5vw));
+    grid-template-rows: repeat(17, minmax(90px, 5vw));
 }
 
 .img-bg-1 {
