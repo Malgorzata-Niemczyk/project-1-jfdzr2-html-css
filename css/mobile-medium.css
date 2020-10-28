@@ -1,5 +1,13 @@
 /*max-width: 768px*/
 
+/*****************************/
+/*Below styling for: POLISH FOOD RESTAURANT PAGE*/
+/****************************/
+/*Styling the element in the section with a class of fresh-food-bg*/
+.fresh-food-bg {
+    height: 650px;
+}
+
 /*NAVIGATION*/
 .nav-mobile-btn {
     display: initial;
@@ -11,7 +19,7 @@
 
 /*FOOTER*/
 footer {
-     display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;

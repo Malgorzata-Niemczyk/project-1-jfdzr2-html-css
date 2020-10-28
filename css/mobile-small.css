@@ -4,10 +4,6 @@
 /*Below styling for: POLISH FOOD RESTAURANT PAGE*/
 /****************************/
 /*Styling the elements in the section with a class of fresh-food-bg*/
-.fresh-food-bg {
-    height: 650px;
-}
-
 .fresh-food-text {
     transform: translateY(20%);
 }
