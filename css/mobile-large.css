@@ -109,6 +109,11 @@
     grid-row: 2 / 6;
 }
 
+/*FOOTER*/
+footer {
+    padding-left: 15px;
+}
+
 /*****************************/
 /*Below styling for: SHOPPING CART PAGE*/
 /****************************/
