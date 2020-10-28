@@ -9,7 +9,7 @@ body {
 }
 
 p {
-    line-height: 25px;
+    line-height: 35px;
     padding-bottom: 20px;
 }
 
@@ -199,7 +199,7 @@ section {
     padding-right: 200px;
 }
 
-/*Setting grid for three inages that are under the title "Polish Food"*/
+/*Setting grid for three images that are under the title "Polish Food"*/
 .food-images {
     display: grid;
     grid-template-columns: repeat(11, minmax(96px, 1fr));
@@ -257,6 +257,7 @@ section {
     grid-column: 6 / 7;
     grid-row: 1 / 6;
     padding-left: 60px;
+    z-index: 1;
 }
 
 .and-h2 {
@@ -317,7 +318,7 @@ section {
     grid-column: 8 / 12 ;
     grid-row: 2 / 6;
     padding-left: 20px;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .farm-products-text h2 {
@@ -327,7 +328,7 @@ section {
 }
 
 .farm-products-text p {
-    padding-right: 85px;
+    padding-right: 10px;
 }
 
 .farm-products-text p a {
