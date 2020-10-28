@@ -3,6 +3,11 @@
 /*****************************/
 /*Below styling for: POLISH FOOD RESTAURANT PAGE*/
 /****************************/
+/*HEADER*/
+.header-img {
+    height: 420px;
+}
+
 /* MAIN - styling the elements in the section with a class of about-us-section*/
 .about-us-section {
     grid-template-rows: repeat(18, minmax(90px, 5vw));
