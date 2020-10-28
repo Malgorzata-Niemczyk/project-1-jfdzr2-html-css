@@ -133,7 +133,7 @@ section {
 .about-us-section p {
     grid-column: 5 / 8;
     grid-row: 3 / 7;
-    padding-top: 25px;
+    padding-top: 15px;
     padding-left: 15px;
     font-weight: bold;
 }
