@@ -34,6 +34,11 @@
     grid-row: 4 / 7;
 }
 
+.orange-sq {
+    grid-column: 1 / 7;
+    grid-row: 8 / 10;
+}
+
 /* MAIN - styling the elements in the section with a class of polish-food-section*/
 .food-text-1 p, .food-text-2 p {
     padding: 5px;

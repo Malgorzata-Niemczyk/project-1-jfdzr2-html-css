@@ -36,6 +36,11 @@
     grid-row: 11 / 14;
 }
 
+.orange-sq {
+    grid-column: 1 / 3;
+    grid-row: 15 / 17;
+}
+
 /*Setting grid for the images that are under the title "Polish Food"*/
 .food-images {
     grid-template-columns: repeat(5, minmax(96px, 1fr));
