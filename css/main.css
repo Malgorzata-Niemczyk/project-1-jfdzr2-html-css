@@ -157,6 +157,13 @@ section {
     z-index: -1;
 }
 
+.orange-sq {
+    grid-column: 1 / 7;
+    grid-row: 7 / 9;
+    background-color: orange;
+    z-index: -1;
+}
+
 /* MAIN - styling the elements in the section with a class of polish-food-section*/
 .polish-food-section {
     grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
