@@ -22,6 +22,13 @@
     grid-column: 4 / 7;
     grid-row: 12 / 15;
 }
+/*Adjusting the position of the images that are under the title "Polish Food"*/
+.food-images {
+    margin-bottom: 150px;
+}
+.img-bg-3, .img-bg-4, .img-bg-5 {
+    top: 100px;
+}
 
 /*MAIN - styling the elements in the section with the class of farm-products-section*/
 .farm-products-section {
