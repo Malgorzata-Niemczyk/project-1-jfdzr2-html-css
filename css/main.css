@@ -757,14 +757,14 @@ footer div li a {
     padding: 5px;
     width: 100px;
     background-color: #000;
-    clip-path: circle(62.7% at 34% 36%);
+    clip-path: circle(64.6% at 34% 34%);
     text-align: center;
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .deal-offer-heading p em {
-    font-size: 22px;
+    font-size: 18px;
     color: orange;
 }
 
@@ -787,6 +787,14 @@ footer div li a {
 .discounted-food-text em span {
     color: rgb(211, 140, 9);
     font-weight: bold;
+}
+
+.orange-deal-offer-heading {
+    background-color: orange;
+}
+
+.orange-deal-offer-heading p em {
+    color: #000;
 }
 
 /*Styling of the text, in the top of the main tag, that contains offers for sizzling skillets and vegetarian food*/
