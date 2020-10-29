@@ -7,12 +7,12 @@
 
 [Link to Layout 2](https://malgorzata-niemczyk.github.io/jfdzr2-project-1/shopping-cart.html) - On-Line Shopping Cart
 
-![](screenshots/project_screenshots/Products-List.PNG)
+![](screenshots/project_screenshots/Shopping-Cart.PNG)
 
 
 [Link to Layout 3](https://malgorzata-niemczyk.github.io/jfdzr2-project-1/online-product-list.html) - List of Products Offered by an On-line Shop
 
-![](screenshots/project_screenshots/Shopping-Cart.PNG)
+![](screenshots/project_screenshots/Products-List.PNG)
 
 
 This was a 4 week long project built during my first module at InfoShare Academy. Project goal included using HTML and CSS to build three responsive webpage layouts.
