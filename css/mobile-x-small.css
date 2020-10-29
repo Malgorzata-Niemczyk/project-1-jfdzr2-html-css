@@ -1,0 +1,28 @@
+/*max-width: 414px*/
+
+/*****************************/
+/*Below styling for: POLISH FOOD RESTAURANT PAGE*/
+/****************************/
+
+/* MAIN - styling the elements in the section with a class of about-us-section*/
+.about-us-section p {
+    transform: translateX(-30%);
+}
+
+.img-bg-2 {
+    transform: translateX(-35%);
+}
+
+.blue-sq {
+    grid-column: 3 / 7;
+}
+
+.orange-sq {
+    grid-column: 1 / 7;
+    grid-row: 16 / 18;
+}
+
+/*adjusting the position of the images that are in the section with a class of food-images and the section with a class of farm-products-section*/
+.food-images, .farm-products-section {
+   transform: translateX(-20%);
+}
