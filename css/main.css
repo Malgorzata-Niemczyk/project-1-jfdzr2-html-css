@@ -140,6 +140,8 @@ section {
     padding-top: 15px;
     padding-left: 15px;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
 }
 
 .about-us-section span a, .food-subtext span a {
@@ -327,6 +329,8 @@ section {
     grid-row: 2 / 6;
     padding-left: 20px;
     padding-top: 25px;
+    display: flex;
+    flex-direction: column;
 }
 
 .farm-products-text h2 {
