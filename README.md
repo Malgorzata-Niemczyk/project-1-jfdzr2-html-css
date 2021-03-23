@@ -1,16 +1,16 @@
 # jfdzr2-project-1
 
-[Link to Layout 1](https://malgorzata-niemczyk.github.io/jfdzr2-project-1/project-1.html) - Landing Page of a Restaurant
+[Link to Layout 1](https://malgorzata-niemczyk.github.io//project-1-jfdzr2-html-css/project-1.html) - Landing Page of a Restaurant
 
 ![](screenshots/project_screenshots/Polish-Restaurant.PNG)
 
 
-[Link to Layout 2](https://malgorzata-niemczyk.github.io/jfdzr2-project-1/shopping-cart.html) - On-Line Shopping Cart
+[Link to Layout 2](https://malgorzata-niemczyk.github.io//project-1-jfdzr2-html-css/shopping-cart.html) - On-Line Shopping Cart
 
 ![](screenshots/project_screenshots/Shopping-Cart.PNG)
 
 
-[Link to Layout 3](https://malgorzata-niemczyk.github.io/jfdzr2-project-1/online-product-list.html) - List of Products Offered by an On-line Shop
+[Link to Layout 3](https://malgorzata-niemczyk.github.io//project-1-jfdzr2-html-css/online-product-list.html) - List of Products Offered by an On-line Shop
 
 ![](screenshots/project_screenshots/Products-List.PNG)
 
